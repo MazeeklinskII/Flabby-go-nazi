@@ -9,7 +9,7 @@ class Bird extends GameObject {
         this.ySpeed = 0;
         this.beginningYAccelleration = 0.7;
         this.yAccelleration = 0;
-        this.hitboxRadius = 100;
+        this.hitboxRadius = 40;
         this.image = new Image(250, 150);
         this.image.src = "../assets/images/jefl.png";
         this.flapSound = new Audio("../assets/sounds/flap.wav");
